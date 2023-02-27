@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<launch>  
+
+        <node name="signal" pkg="week1" type="signal.py" output="screen" launch-prefix="nice" />
+        <node name="process" pkg="week1" type="process.py" output="screen" launch-prefix="nice" />
+
+</launch>

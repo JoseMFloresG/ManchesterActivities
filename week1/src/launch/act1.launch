@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<launch>  
+
+        <node name="talker" pkg="week1" type="talker.py" output="screen" launch-prefix="nice" />
+        <node name="listener" pkg="week1" type="listener.py" output="screen" launch-prefix="nice" />
+
+</launch>
