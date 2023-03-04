@@ -23,5 +23,5 @@ sudo chmod 666 /dev/ttyUSB*
 
 #### 7. Launch the ros code with the next command:
 ```
-rosrun week3 input.py
+roslaunch week3 motor.launch
 ```
